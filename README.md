@@ -26,6 +26,8 @@ Furthermore, the performance of FNOs is compared to the ground truth (original d
 
 ### Radial power spectrum
 
+![Radial power spectrum](images/error_radial_power_binned.png) | ![Radial power spectrum](images/error_radial_power.png)
+
 ### Normalised error power spectrum
 
 We find that FNOs can capture the chaotic dynamics of the K-S equation, but a higher Fourier mode cutoff (24) performs better. Analysis using 2D power spectrum and radial power spectrum shows that the FNO with a higher cutoff captures more spectral features of the ground truth. Furthermore, a newly proposed "normalized error power spectrum" metric reveals that the percentage error in the FNO output decreases with a higher Fourier mode cutoff. The training losses suggest that even the better performing FNO model could benefit from more training data.
