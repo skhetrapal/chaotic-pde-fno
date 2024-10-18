@@ -12,7 +12,7 @@ Here is an example of evolution of a random intial state by the above equation f
 
 This study explores how well FNOs capture the chaotic behavior of the K-S equation, focusing on the effect of the Fourier mode cutoff (number of frequencies considered). The K-S equation is solved using a finite difference method (FDM) to generate training data. Two FNO models are trained with different Fourier mode cutoffs (12 and 24). Below we show a comparison of final state output of FNO model with Fourier mode cutoffs at 12 and 24 versus ground truth (i.e. reference test data obtained using FDM).
 
-## Comparison of final state output of FNO model with Fourier mode cutoffs at 12 and 24 versus ground truth
+## Comparison of FNO model output with different Fourier mode cutoffs versus ground truth
 ![FNO output vs ground truth](images/FNO_output_vs_ground_truth.png)
 
 Furthermore, the performance of FNOs is compared to the ground truth (original data) using spectral analysis techniques.
