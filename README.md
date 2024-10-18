@@ -7,10 +7,15 @@ Solving non-linear partial differential equations which exhibit chaotic dynamics
 ```
 Here is an example of evolution of a random intial state by the above equation for 10 secs.
 
-## The Workflow :robot:
+## Evolution of random initial state by K-S equation:
 ![Evolution of random initial state by K-S equation](images/dynamic_images_10sec.gif)
 
-This study explores how well FNOs capture the chaotic behavior of the K-S equation, focusing on the effect of the Fourier mode cutoff (number of frequencies considered). The K-S equation is solved using a finite difference method to generate training data. Two FNO models are trained with different Fourier mode cutoffs (12 and 24). The performance of FNOs is compared to the ground truth (original data) using spectral analysis techniques.
+This study explores how well FNOs capture the chaotic behavior of the K-S equation, focusing on the effect of the Fourier mode cutoff (number of frequencies considered). The K-S equation is solved using a finite difference method (FDM) to generate training data. Two FNO models are trained with different Fourier mode cutoffs (12 and 24). Below we show a comparison of final state output of FNO model with Fourier mode cutoffs at 12 and 24 versus ground truth (i.e. reference test data obtained using FDM).
+
+## Comparison of final state output of FNO model with Fourier mode cutoffs at 12 and 24 versus ground truth
+![FNO output vs ground truth](images/FNO_output_vs_ground_truth.png)
+
+Furthermore, the performance of FNOs is compared to the ground truth (original data) using spectral analysis techniques.
 
 We find that FNOs can capture the chaotic dynamics of the K-S equation, but a higher Fourier mode cutoff (24) performs better. Analysis using 2D power spectrum and radial power spectrum shows that the FNO with a higher cutoff captures more spectral features of the ground truth. Furthermore, a newly proposed "normalized error power spectrum" metric reveals that the percentage error in the FNO output decreases with a higher Fourier mode cutoff. The training losses suggest that even the better performing FNO model could benefit from more training data.
 
