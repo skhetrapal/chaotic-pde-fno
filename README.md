@@ -37,3 +37,9 @@ Furthermore, the performance of FNOs is compared to the ground truth (original d
 We find that FNOs can capture the chaotic dynamics of the K-S equation, but a higher Fourier mode cutoff (24) performs better. Analysis using 2D power spectrum and radial power spectrum shows that the FNO with a higher cutoff captures more spectral features of the ground truth. Furthermore, a newly proposed "normalized error power spectrum" metric reveals that the percentage error in the FNO output decreases with a higher Fourier mode cutoff. The training losses suggest that even the better performing FNO model could benefit from more training data.
 
 Therefore, FNOs are a promising approach for simulating chaotic systems, but sufficient Fourier modes are crucial for capturing the complexity. However, higher-order statistical properties of chaos such as the Lyapunov exponent need to be investigated to determine FNOs' ability to capture chaotic dynamics.
+
+## References
+<a id="1">[1]</a> 
+Khetrapal, S. and Kasi, J (2024),
+A Numerical Study of Chaotic Dynamics of K-S Equation with FNOs
+arXiv:2410.12280
