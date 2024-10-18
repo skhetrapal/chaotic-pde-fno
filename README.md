@@ -2,9 +2,9 @@
 This repository contains code for the paper: https://arxiv.org/abs/2410.12280
 
 Solving non-linear partial differential equations which exhibit chaotic dynamics is an important problem with a wide-range of applications such as predicting weather extremes and financial market risk. Since, accurately simulating chaotic systems with traditional methods can be computationally expensive, Fourier neural operators (FNOs) offer a potentially efficient alternative for solving partial differential equations (PDEs). This paper investigates the ability of FNOs to simulate the chaotic dynamics of a two-dimensional Kuramoto-Sivashinsky (K-S) equation: 
-\begin{equation} 
+$$ 
     \partial_t u = -\frac12 |\nabla u|^2 - \nabla^2 u - \nabla^4 u .
-\end{equation}
+$$
 
 
 This study explores how well FNOs capture the chaotic behavior of the K-S equation, focusing on the effect of the Fourier mode cutoff (number of frequencies considered). The K-S equation is solved using a finite difference method to generate training data. Two FNO models are trained with different Fourier mode cutoffs (12 and 24). The performance of FNOs is compared to the ground truth (original data) using spectral analysis techniques.
