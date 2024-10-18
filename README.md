@@ -40,6 +40,6 @@ Therefore, FNOs are a promising approach for simulating chaotic systems, but suf
 
 ## References
 <a id="1">[1]</a> 
-Khetrapal, S. and Kasi, J (2024),
+Khetrapal, S. and Kasi, J. (2024),
 A Numerical Study of Chaotic Dynamics of K-S Equation with FNOs,
 [arXiv:2410.12280](https://arxiv.org/abs/2410.12280)
