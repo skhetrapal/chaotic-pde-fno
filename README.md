@@ -5,7 +5,10 @@ Solving non-linear partial differential equations which exhibit chaotic dynamics
 ```math
     \partial_t u = -\frac12 |\nabla u|^2 - \nabla^2 u - \nabla^4 u .
 ```
+Here is an example of evolution of a random intial state by the above equation for 10 secs.
 
+## The Workflow :robot:
+![Evolution of random initial state by K-S equation](images/dynamic_images_10sec.gif)
 
 This study explores how well FNOs capture the chaotic behavior of the K-S equation, focusing on the effect of the Fourier mode cutoff (number of frequencies considered). The K-S equation is solved using a finite difference method to generate training data. Two FNO models are trained with different Fourier mode cutoffs (12 and 24). The performance of FNOs is compared to the ground truth (original data) using spectral analysis techniques.
 
