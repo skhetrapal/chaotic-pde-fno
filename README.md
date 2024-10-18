@@ -26,7 +26,7 @@ Furthermore, the performance of FNOs is compared to the ground truth (original d
 
 ### Radial power spectrum of prediction error
 
-![Radial power spectrum](images/error_radial_power_binned.png) | ![Radial power spectrum](images/error_radial_power.png)
+![Radial power spectrum](images/error_radial_power_binned.png)  ![Radial power spectrum](images/error_radial_power.png)
 
 ### Normalised error power spectrum
 
